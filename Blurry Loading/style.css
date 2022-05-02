@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.background {
+  background: url('file:///C:/Users/ATHANUSH/Desktop/HTML/NEW/img.jpg') no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: calc(100vw + 10px);
+  height: calc(100vh + 10px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 60px;
+  color: black;
+}
